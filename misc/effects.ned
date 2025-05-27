@@ -199,7 +199,8 @@ ef_stat_intelligence            none                    1       none            
 ef_stat_wits                    none                    1       none                            3       5       5       0x40     0       50      1       5       10      15      20      25      30
 
 ef_stat_charisma                none                    1       none                            3       11      5       0x40     0       50      1       5       10      15      20      25      30
-ef_stat_manipulation            none                    1       none                            3       12      5       0x40     0       50      1       5       10      15      20      25      30
+ef_stat_manipulation            none                    1       EffectStatManipulation          0       0       5       0x0      0       0       0       5       10      15      20      25      30
+ef_stat_manipulation_internal   none                    1       none                            3       12      5       0x40     0       50      1       5       10      15      20      25      30
 ef_stat_appearance              none                    1       none                            3       13      5       0x40     0       50      1       5       10      15      20      25      30
 
 ef_stat_faith                   none                    1       none                            3       10      5       0x40     0       50      1       5       10      15      20      25      30
