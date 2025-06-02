@@ -1,0 +1,100 @@
+##############################################################################################
+#
+#  CurioShop.nbs
+#
+##############################################################################################
+#
+#
+#  Line Format:
+#
+#  D | R		templateName | treasureClass		copies (0 = infinite)
+#
+#
+#  D | R                Direct (a template name) or Random (a treasure class number)
+#  copies               The number of available items, 0 meaning an infinite supply of this item
+#
+##############################################################################################
+#
+#  08-31-99 YB Original definitions and coding
+#
+##############################################################################################
+
+### Blood Sources
+D	plasmabag						0
+D	bloodpearl						0
+D	bloodstone						0
+D	bloodpouch						0
+D	vitaekindred					0
+D	vitaefae						0
+D	vitaewerewolf					0
+D	vitaeelder						0
+D	giantblood						0
+
+### Jewelry
+D	amuletcontrol					0
+D	amuletdiscipline				0
+D	amuletint						0
+D	amuletper						0
+D	amuletwit						0
+D	bloodnecklace					0
+D	braceletblood					0
+D	braceletcontrol					0
+D	braceletdiscipline				0
+D	bloodring						0
+D	ringapp							0
+D	ringcha							0
+D	ringcontrol						0
+D	ringdiscipline					0
+D	ringman							0
+
+### Scrolls
+D	discscroll_acidictouch_1		0
+D	discscroll_atrophy_1			0
+D	discscroll_auraperception_1		0
+D	discscroll_awaken_1				0
+D	discscroll_awe_1				0
+D	discscroll_beckoning_1			0
+D	discscroll_blackdeath_1			0
+D	discscroll_bloodofpotency_1		0
+D	discscroll_bloodrage_1			0
+D	discscroll_calllightning_1		0
+D	discscroll_cauldronofblood_1	0
+D	discscroll_celerity_1			0
+D	discscroll_cloakofshadows_1		0
+D	discscroll_cloakthegathering_1	0
+D	discscroll_command_1			0
+D	discscroll_decay_1				0
+D	discscroll_drawingoutbeast_1	0
+D	discscroll_dreadgaze_1			0
+D	discscroll_entrancement_1		0
+D	discscroll_eyesoftheserpent_1	0
+D	discscroll_feralwhispers_1		0
+D	discscroll_fireball_1			0
+D	discscroll_firestorm_1			0
+D	discscroll_fortitude_1			0
+D	discscroll_hatchtheviper_1		0
+D	discscroll_heartofstone_1		0
+D	discscroll_heightenedsenses_1	0
+D	discscroll_ignoreflame_1		0
+D	discscroll_majesty_1			0
+D	discscroll_mesmerize_1			0
+D	discscroll_plaguewind_1			0
+D	discscroll_possession_1			0
+D	discscroll_potence_1			0
+D	discscroll_prisonofice_1		0
+D	discscroll_psychicprojection_1	0
+D	discscroll_quellbeast_1			0
+D	discscroll_shamblinghordes_1	0
+D	discscroll_skinoftheadder_1		0
+D	discscroll_spiritstouch_1		0
+D	discscroll_summonelemental_1	0
+D	discscroll_summonsoul_1			0
+D	discscroll_theforgetfulmind_1	0
+D	discscroll_theftofvitae_1		0
+D	discscroll_torch_1				0
+D	discscroll_turntodust_1			0
+D	discscroll_vigormortis_1		0
+D	discscroll_walktheabyss_1		0
+
+### Other
+D	heartshield						0

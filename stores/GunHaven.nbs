@@ -1,0 +1,108 @@
+##############################################################################################
+#
+#  GunHaven.nbs
+#
+##############################################################################################
+#
+#
+#  Line Format:
+#
+#  D | R		templateName | treasureClass		copies (0 = infinite)
+#
+#
+#  D | R                Direct (a template name) or Random (a treasure class number)
+#  copies               The number of available items, 0 meaning an infinite supply of this item
+#
+##############################################################################################
+#
+#  08-31-99 YB Original definitions and coding
+#
+##############################################################################################
+
+### Helms
+D	motorcyclehelmet		0
+D	armyhelmet				0
+D	swathelmet				0
+
+### Armors
+D	leathervest				0
+D	reienforcedclothing		0
+D	leatherjacket			0
+D	armortshirt				0
+D	flakjacket				0
+D	nomexsuit				0
+D	lightballisticvest		0
+D	mediumballisticvest		0
+D	tacticaljacket			0
+D	tailoredarmor			0
+
+### Shields
+D	riotshield				0
+
+### Weapons
+D	pistol					0
+D	pistol_modified			0
+D	pistol_sighted			0
+D	revolver				0
+D	revolver_modified		0
+D	revolver_sighted		0
+D	assaultRifle			0
+D	assaultrifle_modified	0
+D	assaultrifle_sighted	0
+D	submachinegun			0
+D	submachinegun_modified	0
+D	chaingun				0
+D	shotgun					0
+D	shotgun_modified		0
+D	rifle					0
+D	incinerator				0
+D	flamethrower			0
+D	grenadelauncher			0
+D	rocketlauncher			0
+D	compoundbow				0
+D	compoundbowmag			0
+D	shortbow_inc			0
+D	crossbowmd				0
+D	crossbowmag				0
+
+D	brassknuckles			0
+D	sapgloves				0
+D	taser					0
+D	falchionexq				0
+D	flambergefine			0
+D	bastardswordexq			0
+D	claymoreexq				0
+D	greatswordfine			0
+D	pointymaceexq			0
+D	warhammerfine			0
+D	halberdexq				0
+D	bastionfine				0
+D	battleaxefine			0
+
+### Ammo
+D	pistol_clip				0
+D	revolver_rounds			0
+D	assaultrifle_clip_40	0
+D	submachinegun_clip_32	0
+D	chaingun_rounds_100		0
+D	shotgun_shells_20		0
+D	rifle_clip_22			0
+D	napalm_tank_20			0
+D	launch_grenades			0
+D	rocket_pack_03			0
+D	arrows_md_20			0
+D	arrows_magnesium_20		0
+D	bolts_md_20				0
+D	bolts_magnesium_20		0
+
+### Throw
+D	molotovcocktail			0
+D	phosgrenade				0
+D	napalmbomb				0
+D	satchelcharge			0
+D	concgrenade				0
+D	fraggrenade				0
+D	chemgrenade				0
+
+### Utils
+D	goggles					0

@@ -1,0 +1,62 @@
+##############################################################################################
+#
+#  UnornaShop.nbs
+#
+##############################################################################################
+#
+#
+#  Line Format:
+#
+#  D | R		templateName | treasureClass		copies (0 = infinite)
+#
+#
+#  D | R                Direct (a template name) or Random (a treasure class number)
+#  copies               The number of available items, 0 meaning an infinite supply of this item
+#
+##############################################################################################
+#
+#  08-31-99 YB Original definitions and coding
+#
+##############################################################################################
+
+### Potions
+D	potionhealth				0
+D	potiondisease				0
+D	potionpoison				0
+
+### Blood Sources
+D	vitaekindred				0
+D	vitaefae					0
+D	vitaewerewolf				0
+D	vitaeelder					0
+D	giantblood					0
+
+### Jewelry
+D	amuletcontrol				0
+D	amuletdiscipline			0
+D	amuletint					0
+D	amuletper					0
+D	amuletwit					0
+D	bloodnecklace				0
+D	braceletblood				0
+D	braceletcontrol				0
+D	braceletdiscipline			0
+D	bloodring					0
+D	ringapp						0
+D	ringcha						0
+D	ringcontrol					0
+D	ringdiscipline				0
+D	ringman						0
+
+### Scrolls
+D	numscroll_flash_1			0
+D	numscroll_invisibility_1	0
+D	numscroll_prayer_1			0
+D	numscroll_truefaith_1		0
+D	numscroll_truesight_1		0
+D	discscroll_spiritstouch_1	0
+
+### Other
+D	heartshield					0
+D	holywater					0
+D	stake						0

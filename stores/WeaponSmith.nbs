@@ -1,0 +1,183 @@
+##############################################################################################
+#
+#  WeaponSmith.nbs
+#
+##############################################################################################
+#
+#
+#  Line Format:
+#
+#  D | R		templateName | treasureClass		copies (0 = infinite)
+#
+#
+#  D | R                Direct (a template name) or Random (a treasure class number)
+#  copies               The number of available items, 0 meaning an infinite supply of this item
+#
+##############################################################################################
+#
+#  08-31-99 YB Original definitions and coding
+#
+##############################################################################################
+
+### Helms
+D	skullcap				0
+D	lighthelm				0
+D	fullhelm				0
+
+### Armors
+D	rags					0
+D	paddedclothing			0
+D	leatherclothing			0
+D	studdedleather			0
+D	chainmail				0
+D	scalemail				0
+D	halfplate				0
+D	platemail				0
+D	chestplate				0
+
+### Gloves
+D	leathergloves			0
+D	gauntlets				0
+D	gauntlets_heavy			0
+
+### Shields
+D	buckler					0
+D	shield					0
+D	footmanshield			0
+D	cavalryshield			0
+D	largeshield				0
+D	greatshield				0
+
+### Weapons
+D	dagger					0
+D	daggerfine				0
+D	daggerexq				0
+D	dirk					0
+D	morodagger				0
+D	morodaggerfine			0
+D	poignard				0
+
+D	rapierfine				0
+D	scimitar				0
+D	broadsword				0
+D	broadswordfine			0
+D	broadswordexq			0
+D	falchion				0
+D	falchionfine			0
+D	falchionexq				0
+D	flambergefine			0
+D	flambergeexq			0
+D	bastardsword			0
+D	bastardswordfine		0
+D	bastardswordexq			0
+D	claymore				0
+D	claymorefine			0
+D	claymoreexq				0
+D	greatsword				0
+D	greatswordfine			0
+D	greatswordexq			0
+
+D	club					0
+D	mace					0
+D	macefine				0
+D	maceexq					0
+D	quarterstaff			0
+D	pointymace				0
+D	pointymacefine			0
+D	pointymaceexq			0
+D	warhammer				0
+D	warhammerfine			0
+D	warhammerexq			0
+
+D	pitch_fork				0
+D	spear					0
+D	halberd					0
+D	halberdfine				0
+D	halberdexq				0
+D	poleaxe					0
+D	bastion					0
+D	bastionfine				0
+D	bastionexq				0
+D	lance					0
+D	lancefine				0
+
+D	axe						0
+D	battleaxefine			0
+D	battleaxeexq			0
+
+D	shortbow				0
+D	shortbow_inc			0
+D	longbow					0
+D	longbow_inc				0
+D	crossbow				0
+
+### Ammo
+D	arrows_05				0
+D	arrows_10				0
+D	arrows_20				0
+D	arrows_inc_20			0
+D	bolts_05				0
+D	bolts_10				0
+D	bolts_20				0
+D	bolts_inc_20			0
+
+### Throw
+D	greekfire				0
+D	throwingknives			0
+
+### Utils
+D	neckguard				0
+
+### Magic Helms
+D	lighthelm_cold			0
+D	lighthelm_elec			0
+D	lighthelm_fire			0
+
+### Magic Armors
+D	leatherclothing_holy	0
+D	leatherclothing_unholy	0
+D	studdedleather_holy		0
+D	studdedleather_unholy	0
+D	chainmail_holy			0
+D	chainmail_unholy		0
+D	scalemail_holy			0
+D	scalemail_unholy		0
+D	halfplate_holy			0
+D	halfplate_unholy		0
+D	platemail_holy			0
+D	platemail_unholy		0
+
+### Magic Gloves
+D	gauntletstr				0
+D	gauntletdex				0
+D	gauntletsta				0
+D	gauntletaccuracy		0
+D	gauntletpower			0
+D	gauntletfortitude		0
+D	gauntletdodge			0
+D	gauntlets_cold			0
+D	gauntlets_fire			0
+D	gauntlets_grounded		0
+
+### Magic Shields
+D	shield_cold				0
+D	shield_elec				0
+D	shield_fire				0
+D	shield_sun				0
+D	shield_unholy			0
+D	greatshield_cold		0
+D	greatshield_elec		0
+D	greatshield_fire		0
+
+### Magic Weapons
+D	broadswordholy			0
+D	greatswordholy			0
+D	maceholy				0
+D	pointymaceholy			0
+D	broadsworddread			0
+D	falchiondread			0
+D	flambergedread			0
+D	claymoredread			0
+D	greatsworddread			0
+D	warhammerberserker		0
+D	battleaxeberserker		0

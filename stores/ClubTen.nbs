@@ -1,0 +1,30 @@
+##############################################################################################
+#
+#  ClubTen.nbs
+#
+##############################################################################################
+#
+#
+#  Line Format:
+#
+#  D | R		templateName | treasureClass		copies (0 = infinite)
+#
+#
+#  D | R                Direct (a template name) or Random (a treasure class number)
+#  copies               The number of available items, 0 meaning an infinite supply of this item
+#
+##############################################################################################
+#
+#  08-31-99 YB Original definitions and coding
+#
+##############################################################################################
+
+### Blood Sources
+D	plasmabag		0
+D	bloodpearl		0
+D	bloodstone		0
+D	bloodpouch		0
+D	vitaekindred	0
+D	vitaefae		0
+D	vitaewerewolf	0
+D	vitaeelder		0
