@@ -1,0 +1,38 @@
+#########################################################################################
+#
+#	DISCIPLINE GROUPS DEFINITIONS
+#
+#########################################################################################
+
+#	Line Format:
+#	Name Icon XP Flags
+
+#	Name	name of the discipline group
+#	Icon	icon for the discipline group in the discipline pane
+#	XP		additional xp cost to pay to buy the first discipline of the group
+#	Flags	modifier flags
+
+#	Flags:
+#	0x1		this group should not be given to characters of clans that have the "access to all discipline groups at start" flag set (basically a limiter on that flag in the clan file)
+
+
+DGRP_Common						TABcommonIcon.tga				0	0x0
+DGRP_Animalism					TABanimalismIcon.tga			0	0x0
+DGRP_Auspex						TABauspexIcon.tga				0	0x0
+DGRP_Celerity					TABcelerityIcon.tga				0	0x0
+DGRP_Obfuscate					TABobfuscateIcon.tga			0	0x0
+DGRP_Dementation				TABdementationIcon.tga			0	0x0
+DGRP_Dominate					TABdominateIcon.tga				0	0x0
+DGRP_Fortitude					TABfortitudeIcon.tga			0	0x0
+DGRP_Potence					TABpotenceIcon.tga				0	0x0
+DGRP_Protean					TABproteanIcon.tga				0	0x0
+DGRP_Presence					TABpresenceIcon.tga				0	0x0
+DGRP_Mortis						TABmortisIcon.tga				0	0x1
+DGRP_Thau_BloodPath				TABthau_BloodPathIcon.tga		0	0x1
+DGRP_Thau_LureOfFlames			TABthau_LureFlamesIcon.tga		0	0x1
+DGRP_Thau_HandsOfDestruction	TABthau_HandsDestructIcon.tga	0	0x1
+DGRP_Thau_Rituals				TABthau_RitualsIcon.tga			0	0x1
+DGRP_Numina						TABnuminaIcon.tga				0	0x1
+DGRP_Faith						TABfaithIcon.tga				0	0x1
+DGRP_Obtenebration				TABobtenebrationIcon.tga		0	0x1
+DGRP_Serpentis					TABserpentisIcon.tga			0	0x1
