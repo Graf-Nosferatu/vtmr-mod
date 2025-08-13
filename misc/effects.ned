@@ -291,7 +291,7 @@ ef_disc_bloodstrength			bloodStrengthIcon			0	EffectDiscBloodStrength			3	0	5	0x
 ef_disc_blooddexterity			bloodDexterityIcon			0	EffectDiscBloodDexterity		3	1	5	0x200	0		0	0	5		10		15		20		25		30
 ef_disc_bloodstamina			bloodStaminaIcon			0	EffectDiscBloodStamina			3	2	5	0x200	0		0	0	5		10		15		20		25		30
 ef_disc_potence					potenceIcon					0	EffectDiscPotence				15	0	5	0x200	0		0	0	5		10		15		20		25		30
-ef_disc_fortitude				fortitudeIcon				0	EffectDiscFortitude				16	0	5	0x200	0		0	0	5		10		15		20		20		25
+ef_disc_fortitude				fortitudeIcon				0	EffectDiscFortitude				16	0	5	0x200	0		0	0	5		10		15		20		25		30
 ef_disc_celerity1				celerityIcon				0	EffectDiscCelerity				17	0	6	0x200	0		0	0	1.5		2.0		2.5		3.0		3.5		4.0
 ef_disc_celerity2				none						0	none							18	0	6	0x0		0		0	0	1.1		1.2		1.3		1.4		1.5		1.6
 ef_disc_mistform				mistFormIcon				0	EffectDiscMistForm				19	0	5	0x200	0		0	0	2		2		2		2		3		4
