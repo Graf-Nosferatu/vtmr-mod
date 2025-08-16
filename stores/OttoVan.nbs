@@ -1,21 +1,14 @@
 ##############################################################################################
 #
-#  OttoVan.nbs
+#	OttoVan.nbs
 #
 ##############################################################################################
 #
+#	Line Format:
+#	D | R	templateName | treasureClass	copies (0 = infinite)
 #
-#  Line Format:
-#
-#  D | R		templateName | treasureClass		copies (0 = infinite)
-#
-#
-#  D | R                Direct (a template name) or Random (a treasure class number)
-#  copies               The number of available items, 0 meaning an infinite supply of this item
-#
-##############################################################################################
-#
-#  08-31-99 YB Original definitions and coding
+#	D | R	Direct (a template name) or Random (a treasure class number)
+#	copies	The number of available items, 0 meaning an infinite supply of this item
 #
 ##############################################################################################
 
@@ -56,6 +49,7 @@ D	incinerator				0
 D	compoundbow				0
 D	shortbow_inc			0
 D	crossbowmd				0
+D	stakegun				0
 
 D	brassknuckles			0
 D	sapgloves				0
@@ -80,6 +74,7 @@ D	rifle_clip_22			0
 D	napalm_tank_20			0
 D	arrows_md_20			0
 D	bolts_md_20				0
+D	stakegun_pack_20		0
 
 ### Throw
 D	molotovcocktail			0

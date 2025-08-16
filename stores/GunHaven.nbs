@@ -1,21 +1,14 @@
 ##############################################################################################
 #
-#  GunHaven.nbs
+#	GunHaven.nbs
 #
 ##############################################################################################
 #
+#	Line Format:
+#	D | R	templateName | treasureClass	copies (0 = infinite)
 #
-#  Line Format:
-#
-#  D | R		templateName | treasureClass		copies (0 = infinite)
-#
-#
-#  D | R                Direct (a template name) or Random (a treasure class number)
-#  copies               The number of available items, 0 meaning an infinite supply of this item
-#
-##############################################################################################
-#
-#  08-31-99 YB Original definitions and coding
+#	D | R	Direct (a template name) or Random (a treasure class number)
+#	copies	The number of available items, 0 meaning an infinite supply of this item
 #
 ##############################################################################################
 
@@ -64,6 +57,7 @@ D	compoundbowmag			0
 D	shortbow_inc			0
 D	crossbowmd				0
 D	crossbowmag				0
+D	stakegun				0
 
 D	brassknuckles			0
 D	sapgloves				0
@@ -94,6 +88,7 @@ D	arrows_md_20			0
 D	arrows_magnesium_20		0
 D	bolts_md_20				0
 D	bolts_magnesium_20		0
+D	stakegun_pack_20		0
 
 ### Throw
 D	molotovcocktail			0
