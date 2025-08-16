@@ -1,103 +1,90 @@
 #########################################################################################
 #
-# DISCIPLINE DEFINITIONS
+#	DISCIPLINE DEFINITIONS
 #
 #########################################################################################
 #
-# Line format:
+#	Line format:
+#	name group icon script sound flags type minDist maxDist fData cast xpc c0 c1 c2 c3 c4 r0 r1 r2 r3 r4 cs0 cv0 cs1 cv1 cs2 cv2
 #
-# name group icon script sound flags type minDist maxDist fData cast xpc c0 c1 c2 c3 c4 r0 r1 r2 r3 r4 cs0 cv0 cs1 cv1 cs2 cv2
+#	name	name of the discipline
+#	group	group (tab) the discipline belongs to
+#	icon	icon for the discipline
+#	script	name of the script (CASE SENSITIVE as any Java related stuff!!!)
+#	sound	the casting sound, or '-'
+#	flags	flags for how the discipline works (see list below)
+#	type	type of dicipline (for AI, see list below)
+#	minDist	minimum distance to cast (for AI)
+#	maxDist	maximum distance to cast (for AI)
+#	fData	additional float data
+#	cast	cast animation
+#	xpc		initial cost in experience to "buy" the discipline
+#	cN		cost in blood to cast per level
+#	rN		time in ms before the discipline can be recast
+#	csN		check stat
+#	cvN		check value
 #
-# name		name of the discipline
-# group		group (tab) the discipline belongs to
-# icon		icon for the discipline
-# script	name of the script (CASE SENSITIVE as any Java related stuff!!!)
-# sound		the casting sound, or '-'
-# flags		flags for how the discipline works (see list below)
-# type		type of dicipline (for AI, see list below)
-# minDist	minimum distance to cast (for AI)
-# maxDist	maximum distance to cast (for AI)
-# fData		additional float data
-# cast		cast animation
-# xpc		initial cost in experience to "buy" the discipline
-# cN		cost in blood to cast per level
-# rN		time in ms before the discipline can be recast
-# csN		check stat
-# cvN		check value
+#	Flags:
 #
+#	TARGET NONE			0x01
+#	TARGET AREA			0x02
+#	TARGET INVENTORY	0x04
+#	TARGET ENEMY		0x08
+#	TARGET FRIENDLY		0x10
+#	OFFENSIVE			0x20
+#	TARGET DEAD			0x40
+#	TARGET HEAD			0x80
+#	PROJ				0x2000		projectile, should try to avoid hitting friends in the back
+#	AOE					0x4000		explosion, should try to avoid hitting friends (radius is in fData)
+#	SHAPE CHANGE		0x8000		this is a shape change that cannot be combined with other shape changes
+#	TERRIFYING			0x10000		should terrify/astonish mortals (peds) witnessing its use
+#	NOPARTYNOTIFY		0x20000		counter to OFFENSIVE, does not notify party members of this 'attack'
 #
-# Flags:
+#	Types:
 #
-# TARGET NONE		0x01
-# TARGET AREA		0x02
-# TARGET INVENTORY	0x04
-# TARGET ENEMY		0x08
-# TARGET FRIENDLY	0x10
-# OFFENSIVE			0x20
-# TARGET DEAD		0x40
-# TARGET HEAD		0x80
+#	NONE		0	AI cannot use or use only in special conditions
+#	HEAL		1	Healing discipline (when damaged)
+#	BUFF		2	Buffing discipline (start of fight generally)
+#	SUMMON		3	Summoning discipline (start of fight generally)
+#	HIDE		4	Hide, sneak, etc. (preferably at start of fight or when damaged too much)
+#	SENSE		5	Sense discipline (used by AI on losing its target)
+#	FEED		6	Feed discipline
+#	RESERVED	7	(reserved, do not use)
+#	RESERVED	8	(reserved, do not use)
+#	RESERVED	9	(reserved, do not use)
+#	DAMAGE		10	Damage discipline (in fight damage)
+#	MIND		11	Mind/control (in fight mind control, fear, mesmerize, etc.)
+#	FRENZY		12	Makes frenzy higher
 #
-# PROJ			0x2000		projectile, should try to avoid hitting friends in the back
-# AOE			0x4000		explosion, should try to avoid hitting friends (radius is in fData)
-# SHAPE CHANGE	0x8000		this is a shape change that cannot be combined with other shape changes
-# TERRIFYING	0x10000		should terrify/astonish mortals (peds) witnessing its use
-# NOPARTYNOTIFY	0x20000		counter to OFFENSIVE, does not notify party members of this 'attack'
+#	Stats:
 #
-# Types:
+#	0	STRENGTH
+#	1	DEXTERITY
+#	2	STAMINA
+#	3	PERCEPTION
+#	4	INTELLIGENCE
+#	5	WITS
+#	6	BLOOD
+#	7	HUMANITY
+#	8	FRENZY
+#	9	GENERATION
+#	10	FAITH
+#	11	CHARISMA
+#	12	MANIPULATION
+#	13	APPEARANCE
+#	14	FRENZYRATING
+#	15	BLOODRATING
+#	16	BLOODPOOLSIZE
 #
-# NONE		0	AI cannot use or use only in special conditions
-# HEAL		1	Healing discipline (when damaged)
-# BUFF		2	Buffing discipline (start of fight generally)
-# SUMMON	3	Summoning discipline (start of fight generally)
-# HIDE		4	Hide, sneak, etc. (preferably at start of fight or when damaged too much)
-# SENSE		5	Sense discipline (used by AI on losing its target)
-# FEED		6	Feed discipline
-# RESERVED	7	(reserved, do not use)
-# RESERVED	8	(reserved, do not use)
-# RESERVED	9	(reserved, do not use)
-# DAMAGE	10	Damage discipline (in fight damage)
-# MIND		11	Mind/control (in fight mind control, fear, mesmerize, etc.)
-# FRENZY	12	Makes frenzy higher
+#	Cast animations: 
 #
-#
-# Stats:
-#
-#   0	STRENGTH
-#   1	DEXTERITY
-#   2	STAMINA
-#   3	PERCEPTION
-#   4	INTELLIGENCE
-#   5	WITS
-#   6	BLOOD
-#   7	HUMANITY
-#   8	FRENZY
-#   9	GENERATION
-#  10	FAITH
-#  11	CHARISMA
-#  12	MANIPULATION
-#  13	APPEARANCE
-#  14	FRENZYRATING
-#  15	BLOODRATING
-#  16	BLOODPOOLSIZE
-#
-#
-# Cast animations: 
-#
-# GENERAL	0
-# HANDS		1
-# THROW		2
-# SPIT		3
-# NONE		4
+#	GENERAL	0
+#	HANDS	1
+#	THROW	2
+#	SPIT	3
+#	NONE	4
 #
 #########################################################################################
-#
-#  08-31-99 YB  Original definition and recode from the old .INI format
-#  09-02-99 YB  Added support for initial xp costs
-#  10-18-99 YB  Added support for the AI values
-#  11-22-99 YB  Added support for the stat checks
-#
-#########################################################################################
-
 
 # name                  group                           icon                    script                          sound                           flags   type    minDist maxDist fData   cast    xpc     c0      c1      c2      c3      c4      r0      r1      r2      r3      r4      cs0 cv0 cs1 cv1 cs2 cv2  
 
@@ -202,10 +189,10 @@ BlackDeath              DGRP_Mortis                     blackDeathIcon          
 
 #-- BloodPath
 
-BloodRage               DGRP_Thau_BloodPath             bloodRageIcon           DisciplineBloodRage             disciplineCast_wobbleSputtr.WAV 0x28    10      0.0     1000.0  0.0     0       250     10      10      10      5       5       2000    2000    2000    1000    1000    4   25  5   25  -   -
-BloodOfPotency          DGRP_Thau_BloodPath             bloodOfPotencyIcon      DisciplineBloodOfPotency        disciplineCast_wobbleSputtr.WAV 0x01    2       0.0     9999.0  0.0     0       500     15      15      15      10      10      2000    2000    2000    1000    1000    -   -   -   -   -   -
-TheftOfVitae            DGRP_Thau_BloodPath             theftOfVitaeIcon        DisciplineTheftOfVitae          disciplineCast_wobbleSputtr.WAV 0x28    10      0.0      550.0  0.0     1       750     20      20      20      15      15      4000    4000    4000    2000    2000    4   40  -   -   -   -
-CauldronOfBlood         DGRP_Thau_BloodPath             cauldronOfBloodIcon     DisciplineCauldronOfBlood       disciplineCast_wobbleSputtr.WAV 0x28    10      0.0      200.0  0.0     2       1000    25      25      25      20      20      3000    3000    2000    2000    1000    4   50  -   -   -   -
+BloodRage			DGRP_Thau_BloodPath		bloodRageIcon			DisciplineBloodRage				disciplineCast_wobbleSputtr.WAV		0x28	10	0.0	1000.0	0.0	0	250		10	10	10	5	5		2000	2000	2000	1000	1000	4	25	5	25	-	-
+BloodOfPotency		DGRP_Thau_BloodPath		bloodOfPotencyIcon		DisciplineBloodOfPotency		disciplineCast_wobbleSputtr.WAV		0x01	2	0.0	9999.0	0.0	0	500		15	15	15	10	10		2000	2000	2000	1000	1000	-	-	-	-	-	-
+TheftOfVitae		DGRP_Thau_BloodPath		theftOfVitaeIcon		DisciplineTheftOfVitae			disciplineCast_wobbleSputtr.WAV		0x28	10	0.0	550.0	0.0	1	750		5	10	15	20	25		4000	3000	2000	2000	1000	4	40	-	-	-	-
+CauldronOfBlood		DGRP_Thau_BloodPath		cauldronOfBloodIcon		DisciplineCauldronOfBlood		disciplineCast_wobbleSputtr.WAV		0x28	10	0.0	200.0	0.0	2	1000	25	25	25	20	20		3000	3000	2000	2000	1000	4	50	-	-	-	-
 
 #-- LureOfFlames
 

@@ -174,19 +174,27 @@ DGRP_SERPENTIS                  Serpentis
 // discipline names
 // ............................................................................ 
 
-// Common
+//	Common
 FEED			Feed
+FEED_L			Drains Blood From Targeted Victim
 BLOODHEALING	Blood Healing
+BLOODHEALING_L	Restores Health
 BLOODPOWER		Blood Power
 BLOODPOWER_L	Increases Physical attributes (5/10/15/20/25) by 1 minute
 AWAKEN			Awaken
+AWAKEN_L		Awakens Targeted Vampires from Torpor
 WALKTHEABYSS	Walk The Abyss
-NUKE			Nuke! (debug)
+WALKTHEABYSS_L	Creates a Mystic Portal
 
-// Common (Obsolete)
-BLOODSTRENGTH                   Blood Strength
-BLOODDEXTERITY                  Blood Dexterity
-BLOODSTAMINA                    Blood Stamina
+//	Common (Obsolete)
+BLOODSTRENGTH		Blood Strength
+BLOODSTRENGTH_L		Increases Strength
+BLOODDEXTERITY		Blood Dexterity
+BLOODDEXTERITY_L	Increases Dexterity
+BLOODSTAMINA		Blood Stamina
+BLOODSTAMINA_L		Increases Stamina
+NUKE				Nuke! (debug)
+NUKE_L				Instantly Destroys Any Actor - DEBUG ONLY
 
 // Animalism
 FERALWHISPERS                   Feral Whispers
@@ -248,11 +256,15 @@ PLAGUEWIND                      Plague Wind
 SUMMONSOUL                      Summon Soul
 BLACKDEATH                      Black Death
 
-// Blood Magic
-BLOODRAGE                       Blood Rage
-BLOODOFPOTENCY                  Blood Of Potency
-THEFTOFVITAE                    Theft Of Vitae
-CAULDRONOFBLOOD                 Cauldron Of Blood
+//	Blood Magic
+BLOODRAGE			Blood Rage
+BLOODRAGE_L			Forces the Target to Spend Blood
+BLOODOFPOTENCY		Blood Of Potency
+BLOODOFPOTENCY_L	Grants Lowered Blood Cost for Discipline Usage
+THEFTOFVITAE		Theft Of Vitae
+THEFTOFVITAE_L		Steals Vitae (15%%/30%%/45%%/60%%/75%%) from the Targeted Creature
+CAULDRONOFBLOOD		Cauldron Of Blood
+CAULDRONOFBLOOD_L	Boils the Blood of the Touched Target
 
 // Lure of Flames
 TORCH                           Torch
@@ -296,16 +308,6 @@ TONGUEOFTHEASP			Tongue Of The Asp
 // ............................................................................ 
 // long discipline names
 // ............................................................................ 
-
-// Common
-FEED_L				Drains Blood From Targeted Victim
-BLOODHEALING_L                  Restores Health
-BLOODSTRENGTH_L                 Increases Strength
-BLOODDEXTERITY_L                Increases Dexterity
-BLOODSTAMINA_L                  Increases Stamina
-AWAKEN_L                        Awakens Targeted Vampires from Torpor
-WALKTHEABYSS_L			Creates a Mystic Portal
-NUKE_L                          Instantly Destroys Any Actor - DEBUG ONLY
 
 // Animalism
 FERALWHISPERS_L                 Enlists Targeted Animals to Your Aid
@@ -365,12 +367,6 @@ VIGORMORTIS_L                   Takes Control of a Targeted Dead Creature
 PLAGUEWIND_L                    Expels a Damaging Breath Cloud at the Target
 SUMMONSOUL_L                    Calls Forth a Wraith to Your Aid
 BLACKDEATH_L                    Causes Disease Damage on Touched Target
-
-// Blood Magic
-BLOODRAGE_L                     Forces the Target to Spend Blood
-BLOODOFPOTENCY_L                Grants Lowered Blood Cost for Discipline Usage
-THEFTOFVITAE_L                  Steals Vitae from the Targeted Creature
-CAULDRONOFBLOOD_L               Boils the Blood of the Touched Target
 
 // Lure of Flames
 TORCH_L                         Creates a Light of Balefire that Follows the User
