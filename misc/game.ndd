@@ -115,10 +115,10 @@ DrawingOutBeast         DGRP_Animalism                  drawingOutTheBeastIcon  
 
 # AUSPEX                -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-HeightenedSenses        DGRP_Auspex                     heightenedSensesIcon    DisciplineHeightenedSenses      actionWhoosh_10.WAV             0x01    5       0.0     9999.0  0.0     0       250     5       5       5       5       5       1000    1000    1000    1000    1000    3   25  -   -   -   -
-AuraPerception          DGRP_Auspex                     auraPerceptionIcon      DisciplineAuraPerception        actionWhoosh_10.WAV             0x18    0       0.0     1500.0  0.0     0       500     5       5       5       5       5       1000    1000    1000    1000    1000    3   35  -   -   -   -
-SpiritsTouch            DGRP_Auspex                     spiritsTouchIcon        DisciplineSpiritsTouch          actionWhoosh_10.WAV             0x04    0       0.0     9999.0  0.0     0       750     15      15      15      10      10      1000    1000    1000    1000    1000    3   30  -   -   -   -
-PsychicProjection       DGRP_Auspex                     psychicProjectionIcon   DisciplinePsychicProjection     actionWhoosh_10.WAV             0x01    0       0.0     9999.0  0.0     0       1000    20      20      20      15      15      1000    1000    1000    1000    1000    -   -   -   -   -   -
+HeightenedSenses	DGRP_Auspex		heightenedSensesIcon	DisciplineHeightenedSenses		actionWhoosh_10.WAV		0x01	5	0.0	9999.0	0.0		0	250		5	5	5	5	5		1000	1000	1000	1000	1000	3	25	-	-	-	-
+AuraPerception		DGRP_Auspex		auraPerceptionIcon		DisciplineAuraPerception		actionWhoosh_10.WAV		0x18	0	0.0	9999.0	0.0		0	500		5	5	5	5	5		1000	1000	1000	1000	1000	3	35	-	-	-	-
+SpiritsTouch		DGRP_Auspex		spiritsTouchIcon		DisciplineSpiritsTouch			actionWhoosh_10.WAV		0x04	0	0.0	9999.0	0.0		0	750		15	15	15	10	10		1000	1000	1000	1000	1000	3	30	-	-	-	-
+PsychicProjection	DGRP_Auspex		psychicProjectionIcon	DisciplinePsychicProjection		actionWhoosh_10.WAV		0x01	0	0.0	9999.0	0.0		0	1000	20	20	20	15	15		1000	1000	1000	1000	1000	-	-	-	-	-	-
 
 
 # CELERITY              -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

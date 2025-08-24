@@ -203,11 +203,15 @@ QUELLBEAST                      Quell The Beast
 SUBSUMETHESPIRIT                Subsume The Spirit
 DRAWINGOUTBEAST                 Drawing Out The Beast
 
-// Auspex
-HEIGHTENEDSENSES                Heightened Senses
-AURAPERCEPTION                  Aura Perception
-SPIRITSTOUCH                    Spirit's Touch
-PSYCHICPROJECTION               Psychic Projection
+//	Auspex
+HEIGHTENEDSENSES		Heightened Senses
+HEIGHTENEDSENSES_L		Increases Vampiric Senses
+AURAPERCEPTION			Aura Perception
+AURAPERCEPTION_L		Perceives various information (Common/Status/Phys.attr/Soak/Adv.Soak) about the Target
+SPIRITSTOUCH			Spirit's Touch
+SPIRITSTOUCH_L			Determines Properties of an Item
+PSYCHICPROJECTION		Psychic Projection
+PSYCHICPROJECTION_L		Allows Exploration with an Unseen Astral Form
 
 // Celerity
 CELERITY                        Celerity
@@ -316,12 +320,6 @@ QUELLBEAST_L                    Lowers Frenzy Levels and Creates Complacency In 
 SUBSUMETHESPIRIT_L              Grants Control of Targeted Animal
 DRAWINGOUTBEAST_L               Releases Frenzy State onto a Targeted Enemy
 
-// Auspex
-HEIGHTENEDSENSES_L              Increases Vampiric Senses
-AURAPERCEPTION_L                Perceives the Aura and other Statistics of a Targeted Creature
-SPIRITSTOUCH_L                  Determines Properties of an Item
-PSYCHICPROJECTION_L             Allows Exploration with an Unseen Astral Form
-
 // Celerity
 CELERITY_L                      Grants Enhanced Movement and Attack Speed
 
@@ -412,17 +410,17 @@ TONGUEOFTHEASP_L		Steals Vitae From the Target
 // discipline specific message
 // ............................................................................ 
 
-RPG_DISC_NOTHEFTOFVITAE1        You cannot drain blood from this target!
-RPG_DISC_NOTHEFTOFVITAE2        This target has no more blood to drain!
-RPG_DISC_NOWALKTHEABYSS         You cannot use Walk The Abyss here!
-RPG_DISC_NOTANIMAL		This Discipline can only be used on an animal!
-RPG_DISC_TOOMANYPETS		You cannot control more servants!
-RPG_DISC_AURAPERC0		Type: %t
-RPG_DISC_AURAPERC1		Type: %t Aura: %A
-RPG_DISC_AURAPERC2		Type: %t Aura: %A Clan: %C
-RPG_DISC_AURAPERC3		Health: %H
-RPG_DISC_AURAPERC4		Health: %H Blood: %B
-RPG_DISC_NOMASK1000		You cannot use Mask Of A Thousand Faces with this target!
+RPG_DISC_NOTHEFTOFVITAE1		You cannot drain blood from this target!
+RPG_DISC_NOTHEFTOFVITAE2		This target has no more blood to drain!
+RPG_DISC_NOWALKTHEABYSS			You cannot use Walk The Abyss here!
+RPG_DISC_NOTANIMAL				This Discipline can only be used on an animal!
+RPG_DISC_TOOMANYPETS			You cannot control more servants!
+RPG_DISC_AURAPERC0				Type: %t   Aura: %A   Clan: %C
+RPG_DISC_AURAPERC1				Health: %H   Blood: %B   Frenzy: %F
+RPG_DISC_AURAPERC2				Strength: %S   Dexterity: %D   Stamina: %E
+RPG_DISC_AURAPERC3				Bashing: %B   Lethal: %L   Aggravated: %A
+RPG_DISC_AURAPERC4				Electrical: %E   Fire: %F   Cold: %C
+RPG_DISC_NOMASK1000				You cannot use Mask Of A Thousand Faces with this target!
 RPG_DISC_NOBLOODHEALING			You cannot use Blood Healing at full health!
 RPG_DISC_NOHEAL					You cannot use Heal at full health!
 RPG_DISC_NOSPIRITSTOUCH			This item is already identified!
