@@ -1,0 +1,27 @@
+; taser foley
+
+; mode		namewave file			flags
+
+hitflesh	electrical_arc_01.wav
+hitflesh	electrical_arc_02.wav
+
+hitstone	electrical_arc_01.wav
+hitstone	electrical_arc_02.wav
+
+hitmagic	electrical_arc_01.wav
+hitmagic	electrical_arc_02.wav
+
+hitwood		electrical_arc_01.wav
+hitwood		electrical_arc_02.wav
+
+hitmetal	electrical_arc_01.wav
+hitmetal	electrical_arc_02.wav
+
+hitbone		electrical_arc_01.wav
+hitbone		electrical_arc_02.wav
+
+hitleather	electrical_arc_01.wav
+hitleather	electrical_arc_02.wav
+
+hitmail		electrical_arc_01.wav
+hitmail		electrical_arc_02.wav

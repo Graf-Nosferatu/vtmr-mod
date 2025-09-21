@@ -58,10 +58,10 @@ D	shortbow_inc			0
 D	crossbowmd				0
 D	crossbowmag				0
 D	stakegun				0
+D	taser					0
 
 D	brassknuckles			0
 D	sapgloves				0
-D	taser					0
 D	falchionexq				0
 D	flambergefine			0
 D	bastardswordexq			0
@@ -89,6 +89,7 @@ D	arrows_magnesium_20		0
 D	bolts_md_20				0
 D	bolts_magnesium_20		0
 D	stakegun_pack_20		0
+D	power_cel_24			0
 
 ### Throw
 D	molotovcocktail			0

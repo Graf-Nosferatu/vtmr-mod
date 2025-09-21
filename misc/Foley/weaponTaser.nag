@@ -1,0 +1,12 @@
+; taser foley
+
+; mode		namewave file			flags
+
+use			taser_fire.wav
+outofammo	taser_fire.wav
+
+drop		handgun_drop.wav
+pickup		handgun_pickup.wav
+
+wear		un_into_holster.wav
+remove		gun_outOf_holster.wav
