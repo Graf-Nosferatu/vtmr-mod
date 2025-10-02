@@ -182,7 +182,7 @@ BLOODPOWER_L					Increases Physical attributes (5/10/15/20/25) by 1 minute
 AWAKEN							Awaken
 AWAKEN_L						Awakens Targeted Vampires from Torpor
 WALKTHEABYSS					Walk The Abyss
-WALKTHEABYSS_L					Creates a Mystic Portal
+WALKTHEABYSS_L					Creates a Mystic Portal to Haven or Vault
 
 //	Common (Obsolete)
 BLOODSTRENGTH					Blood Strength
