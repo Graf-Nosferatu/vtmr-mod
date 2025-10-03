@@ -308,7 +308,7 @@ FIREBALL_L						Propels a Ball of Fire with (10/20/30/40/50) damage At the Targe
 FLAMERING						Flame Ring
 FLAMERING_L						Creates a Ring of Flame with (10/20/30/40/50) average damage around User
 IMMOLATE						Immolate
-IMMOLATE_L						Damages Touched Target with Searing Flame
+IMMOLATE_L						Damages Touched Target Searing Flame with (10/20/30/40/50)x2 damage
 FIRESTORM						Fire Storm
 FIRESTORM_L						Creates a Rain of Fire from the Sky
 

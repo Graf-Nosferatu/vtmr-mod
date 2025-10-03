@@ -372,6 +372,6 @@ ef_disc_feralclaws				ferrelClawsIcon				0	EffectDiscFeralClaws			0	0	0	0x200	0	
 ef_disc_auraperception			none						0	EffectDiscAuraPerception		0	0	0	0x0		0		0	0	0		0		0		0		0		0
 ef_disc_eyesofchaos				none						0	EffectDiscEyesOfChaos			0	0	0	0x300	0		0	0	0		0		0		0		0		0
 ef_disc_truefaith				trueFaithIcon				0	EffectDiscTrueFaith				0	0	0	0x200	0		0	0	0		0		0		0		0		0
-ef_disc_immolate				none						0	EffectDiscImmolate				7	4	5	0x0		0		0	0	15		30		45		60		75		90
+ef_disc_immolate				none						0	EffectDiscImmolate				8	4	5	0x0		500		0	0	10		20		30		40		50		60
 ef_disc_heal					none						0	EffectDiscHeal					9	0	5	0x0		0		0	0	10		20		35		50		75		100
 ef_disc_nuke					none						0	none							7	0	5	0x0		0		0	0	1000	1000	1000	1000	1000	1000
