@@ -183,7 +183,7 @@ TurnToDust			DGRP_Thau_HandsOfDestruction	turnToDustIcon				DisciplineTurnToDust
 #-- Rituals
 HeartOfStone		DGRP_Thau_Rituals				heartOfStoneIcon			DisciplineHeartOfStone			actionWhoosh_11.WAV					0x01		2		0 9999	0.0		0	250		5	5	5	5	5		1000 1000 1000 1000 1000	4	25	5	25	-	-
 PrisonOfIce			DGRP_Thau_Rituals				prisonOfIceIcon				DisciplinePrisonOfIce			disciplineCast_electricWhip.WAV		0x28		10		0  200	0.0		0	500		15	15	15	10	10		3000 3000 2000 2000 1000	4	35	5	35	-	-
-CallLightning		DGRP_Thau_Rituals				regoTempestasIcon			DisciplineCallLightning			discipline_callLightning_02.WAV		0x28		10		0 1000	0.0		0	750		25	25	25	20	20		3000 3000 2000 2000 1000	4	50	5	50	-	-
+CallLightning		DGRP_Thau_Rituals				regoTempestasIcon			DisciplineCallLightning			discipline_callLightning_02.WAV		0x28		10		0 1000	0.0		0	750		15	15	15	15	15		3000 3000 2000 2000 1000	4	50	5	50	-	-
 IgnoreFlame			DGRP_Thau_Rituals				ignoreTheSearingFlameIcon	DisciplineIgnoreFlame			actionWhoosh_04.WAV					0x01		2		0 9999	0.0		2	1000	10	10	10	5	5		1000 1000 1000 1000 1000	4	60	5	60	-	-
 SummonElemental		DGRP_Thau_Rituals				summonElementalIcon			DisciplineSummonElemental		disciplineCast_whisperCast.WAV		0x10001		3		0 9999	0.0		1	1500	25	25	25	20	20		3000 3000 2000 2000 1000	4	70	5	70	-	-
 
