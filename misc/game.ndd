@@ -172,7 +172,7 @@ Torch				DGRP_Thau_LureOfFlames			torchIcon					DisciplineTorch					actionWhoosh
 Fireball			DGRP_Thau_LureOfFlames			fireballIcon				DisciplineFireball				actionWhoosh_11.WAV					0x4028		10		0 1000	0.0		2	500		10	10	10	10	10		1000 1000 1000 1000 1000	4	35	-	-	-	-
 FlameRing			DGRP_Thau_LureOfFlames			FlameRingIcon				DisciplineFlameRing				disciplineCast_filterWah.WAV		0x01		0		0 9999	0.0		2	750		15	15	15	15	15		1000 1000 1000 1000 1000	4	50	-	-	-	-
 Immolate			DGRP_Thau_LureOfFlames			immolateIcon				DisciplineImmolate				disciplineCast_filterWah.WAV		0x28		10		0  200	0.0		2	1000	20	20	20	20	20		1000 1000 1000 1000 1000	4	60	-	-	-	-
-FireStorm			DGRP_Thau_LureOfFlames			fireStormIcon				DisciplineFireStorm				actionWhoosh_11.WAV					0x22		10		0 1000	0.0		3	1500	25	25	20	20	15		2000 2000 2000 1000 1000	4	70	-	-	-	-
+FireStorm			DGRP_Thau_LureOfFlames			fireStormIcon				DisciplineFireStorm				actionWhoosh_11.WAV					0x22		10		0 1000	0.0		3	1500	50	50	50	50	50		2000 2000 2000 1000 1000	4	70	-	-	-	-
 
 #-- HandsOfDestruction
 Decay				DGRP_Thau_HandsOfDestruction	decayIcon					DisciplineDecay					disciplineCast_fleshScream.WAV		0x28		10		0  200	0.0		2	250		5	5	5	5	5		2000 2000 2000 1000 1000	4	25	7	-60	-	-

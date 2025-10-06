@@ -1,0 +1,5 @@
+// firestorm explosion file
+
+1000	WALLMARK	120		15000
+1000	SETDAMAGE	48	52	1000	4	256
+5000	NOP

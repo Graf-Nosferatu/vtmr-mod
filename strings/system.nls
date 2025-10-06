@@ -310,7 +310,7 @@ FLAMERING_L						Creates a Ring of Flame with (10/20/30/40/50) average damage ar
 IMMOLATE						Immolate
 IMMOLATE_L						Damages Touched Target Searing Flame with (10/20/30/40/50)x2 damage
 FIRESTORM						Fire Storm
-FIRESTORM_L						Creates a Rain of Fire from the Sky
+FIRESTORM_L						Creates a Rain of Fire with (10/20/30/40/50)x5 average damage from the Sky
 
 //	Hands of Destruction
 DECAY							Decay
