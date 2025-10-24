@@ -30,16 +30,9 @@ D	riotshield				0
 
 ### Weapons
 D	pistol					0
-D	pistol_modified			0
-D	pistol_sighted			0
 D	revolver				0
-D	revolver_modified		0
-D	revolver_sighted		0
 D	assaultrifle			0
-D	assaultrifle_modified	0
-D	assaultrifle_sighted	0
 D	shotgun					0
-D	shotgun_modified		0
 D	rifle					0
 D	incinerator				0
 D	compoundbow				0

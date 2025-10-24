@@ -95,13 +95,13 @@ CATEG:	stephanweapenh			greatSwordFine battleAxeFine warhammerFine flambergeFine
 CATEG:	teutonweapenh			lanceFine greatSwordFine battleAxeFine warhammerExq flambergeExq bastionExq claymoreExq falchionExq pointyMaceExq halberdExq bastardSwordExq
 CATEG:	hausweapenh				lanceFine greatSwordExq battleAxeExq warhammerExq flambergeExq bastionExq claymoreExq falchionExq pointyMaceExq longBow_inc halberdExq bastardSwordExq
 CATEG:	vysweapenh				lanceExq greatSwordExq battleAxeExq crossbow_inc warhammerExq flambergeExq bastionExq claymoreExq falchionExq pointyMaceExq longBow_inc halberdExq bastardSwordExq
-CATEG:	socweapenh				pistol_sighted pistol_modified
-CATEG:	setweapenh				shotgun_modified pistol_sighted pistol_modified
-CATEG:	towerweapenh			revolver_sighted revolver_modified assaultRifle_sighted assaultRifle_modified shotgun_modified pistol_sighted pistol_modified
-CATEG:	sewerweapenh			submachinegun_modified revolver_sighted revolver_modified assaultRifle_sighted assaultRifle_modified shotgun_modified pistol_sighted pistol_modified
-CATEG:	wareweapenh				submachinegun_modified revolver_sighted revolver_modified assaultRifle_sighted assaultRifle_modified shotgun_modified pistol_sighted pistol_modified
-CATEG:	orsiweapenh				submachinegun_modified revolver_sighted revolver_modified assaultRifle_sighted assaultRifle_modified shotgun_modified pistol_sighted pistol_modified
-CATEG:	cathweapenh				submachinegun_modified revolver_sighted revolver_modified assaultRifle_sighted assaultRifle_modified shotgun_modified pistol_sighted pistol_modified
+CATEG:	socweapenh				pistol
+CATEG:	setweapenh				pistol shotgun
+CATEG:	towerweapenh			pistol revolver assaultRifle shotgun
+CATEG:	sewerweapenh			pistol revolver submachinegun assaultRifle shotgun
+CATEG:	wareweapenh				pistol revolver submachinegun assaultRifle shotgun
+CATEG:	orsiweapenh				pistol revolver submachinegun assaultRifle shotgun
+CATEG:	cathweapenh				pistol revolver submachinegun assaultRifle shotgun
 
 //	Progression-based ammo categories
 CATEG:	baseammo				arrows_05 arrows_10 arrows_20

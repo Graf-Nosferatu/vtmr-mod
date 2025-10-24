@@ -443,29 +443,18 @@ QUARTERSTAFF					Quarterstaff
 
 //	firearms
 REVOLVER						Revolver
-REVOLVERSIGHTED					Sighted Revolver
-REVOLVERMODIFIED				Modified Revolver
 PISTOL							Pistol
-PISTOLSIGHTED					Sighted Pistol
-PISTOLMODIFIED					Modified Pistol
 PISTOLDRAGONSBREATH				Dragonsbreath Pistol
 SUBMACHINEGUN					Submachinegun
-SUBMACHINEGUNMODIFIED			Modified Submachinegun
 RIFLE							Rifle
-RIFLESIGHTED					Sighted Rifle
-RIFLEMODIFIED					Modified Rifle
 ASSAULTRIFLE					Assault Rifle
-ASSAULTRIFLESIGHTED				Sighted Assault Rifle
-ASSAULTRIFLEMODIFIED			Modified Assault Rifle
 SHOTGUN							Shotgun
-SHOTGUNMODIFIED					Modified Shotgun
 ROCKETLAUNCHER					Rocket Launcher
 STAKEGUN						Stake Gun
 GRENADELAUNCHER					Grenade Launcher
 FLAMETHROWER					Flamethrower
 CHAINSAW						Chainsaw
 CHAINGUN						Chaingun
-CHAINGUNMODIFIED				Modified Chaingun
 INCINERATOR						Incinerator
 TASER							Taser
 
@@ -555,7 +544,6 @@ GOLDWATCH						Gold Watch
 SILVERWATCH						Silver Watch
 
 //	orphaned :(
-MAGNUM							Magnum
 BRONZEARMOR						Bronze Armor
 COMPOSITEBOW					Composite Bow
 SCYTHE							Scythe
