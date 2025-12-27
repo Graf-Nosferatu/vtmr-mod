@@ -418,7 +418,8 @@ SHORTBOWINC						Incendiary Short Bow
 CROSSBOW						Crossbow
 CROSSBOWINC						Incendiary Crossbow
 CROSSBOWSILVER					Silver Crossbow
-CROSSBOWMAG						Magnesium Crossbow
+COMPOUNDCROSSBOW				Compound Crossbow
+COMPOUNDCROSSBOWMAG				Magnesium Compound Crossbow
 COMPOUNDBOW						Compound Bow
 COMPOUNDBOWMAG					Magnesium Compound Bow
 
