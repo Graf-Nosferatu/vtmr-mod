@@ -1,0 +1,39 @@
+hitflesh		arrow_flesh_01.wav
+hitflesh		arrow_flesh_02.wav
+
+hitstone		stake_stone_01.wav
+hitstone		stake_stone_02.wav
+
+hitwood			stake_wood_01.wav
+hitwood			stake_wood_02.wav
+
+hitmetal		stake_armor_01.wav
+hitmetal		stake_armor_02.wav
+
+hitmagic		hitMagic.wav
+
+hitbone			stake_bone_01.wav
+hitbone			stake_bone_02.wav
+
+hitleather		arrow_leather_01.wav
+hitleather		arrow_leather_02.wav
+
+hitmail			stake_armor_01.wav
+hitmail			stake_armor_02.wav
+
+walk_carpet		stake_bone_01.wav
+walk_carpet		stake_bone_02.wav
+walk_dirt		stake_stone_01.wav
+walk_dirt		stake_stone_02.wav
+walk_metal		stake_armor_01.wav
+walk_metal		stake_armor_02.wav
+walk_puddle		stake_stone_01.wav
+walk_puddle		stake_stone_02.wav
+walk_snow		stake_stone_01.wav
+walk_snow		stake_stone_02.wav
+walk_stone		stake_stone_01.wav
+walk_stone		stake_stone_02.wav
+walk_street		stake_stone_01.wav
+walk_street		stake_stone_02.wav
+walk_wood		stake_wood_01.wav
+walk_wood		stake_wood_02.wav

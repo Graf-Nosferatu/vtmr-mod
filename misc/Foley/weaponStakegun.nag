@@ -1,0 +1,10 @@
+use			shotgun_01.wav
+swing		shotgun_cock.wav
+
+outofammo	stakegun.wav
+
+drop		rifle_drop.wav
+pickup		rifle_pickup.wav
+
+wear		shotgun_cock.wav
+remove		shotgun_unwield.wav
