@@ -445,7 +445,6 @@ QUARTERSTAFF					Quarterstaff
 //	firearms
 REVOLVER						Revolver
 PISTOL							Pistol
-PISTOLDRAGONSBREATH				Dragonsbreath Pistol
 SUBMACHINEGUN					Submachinegun
 RIFLE							Rifle
 ASSAULTRIFLE					Assault Rifle
@@ -493,7 +492,6 @@ LAUNCHGRENADES					Launch Grenades
 NAPALMTANK10					Napalm Canisters
 NAPALMTANK20					Napalm Canisters
 PISTOLCLIP						Pistol Clip
-PISTOLCLIPDRAGON				Dragonsbreath Clip
 POWERCEL12						Power Cell
 POWERCEL24						Power Cell
 REVOLVERROUNDS					Revolver Rounds
@@ -507,8 +505,7 @@ STAKEGUNPACK01					Stakegun Pack
 STAKEGUNPACK05					Stakegun Pack
 STAKEGUNPACK10					Stakegun Pack
 STAKEGUNPACK20					Stakegun Pack
-SUBMACHINEGUNCLIP16				Submachinegun Clip
-SUBMACHINEGUNCLIP32				Submachinegun Clip
+SUBMACHINEGUNCLIP				Submachinegun Clip
 
 //	quick use weapons
 GREEKFIRE						Greek Fire
