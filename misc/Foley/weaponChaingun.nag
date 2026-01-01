@@ -1,0 +1,9 @@
+use			machineGun_lp.wav
+
+outofammo	machineGun_reload_01.wav
+
+drop		rifle_drop.wav
+pickup		rifle_pickup.wav
+
+wear		gun_into_holster.wav
+remove		gun_outOf_holster.wav
