@@ -184,6 +184,12 @@ CATEG:	wareloot				cashUS cashUS cashUS bonds ringSilver ringGold goldWatch holy
 CATEG:	orsiloot				cashUS cashUS cashUS ringSilver ringGold goldWatch holyCross holyStatuette
 CATEG:	cathloot				cashUS cashUS cashUS goldbullion ringSilver ringGold goldWatch holyCross holyStatuette
 
+//	Enemy-specific weapons categories
+CATEG:	weapPistol				pistol
+CATEG:	weapTaser				taser
+CATEG:	weapIncinerator			incinerator
+CATEG:	weapShotgun				shotgun
+
 //	Enemy-specific ammo categories
 CATEG:	arrowsDA				arrows_05 arrows_10 arrows_20
 CATEG:	boltsDA					bolts_05 bolts_10 bolts_20
@@ -841,6 +847,33 @@ CITEM:	scrollsSense			100		-		0	-	0	-	0
 
 
 //	NPC DROPITEM CLASSES
+//	London
+//		The Society of Leopold
+
+//			Lab Worker with Pistol
+CLASS:	81
+CITEM:	weapPistol				10		-		0	-	0	-	0
+CITEM:	pistolclip				60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash2	0	-	0	-	0
+
+//			Lab Worker with Taser
+CLASS:	82
+CITEM:	weapTaser				10		-		0	-	0	-	0
+CITEM:	powercel				60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash2	0	-	0	-	0
+
+//			Soldier with Incinerator
+CLASS:	83
+CITEM:	weapIncinerator			10		-		0	-	0	-	0
+CITEM:	napalmTank				60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash3	0	-	0	-	0
+
+//			Soldier with Shotgun
+CLASS:	84
+CITEM:	weapShotgun				10		-		0	-	0	-	0
+CITEM:	shotgunshells			60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash2	0	-	0	-	0
+
 //	Prague npcs
 CLASS:	131
 CITEM:	baseloot				10		cash0	0	-	0	-	0
