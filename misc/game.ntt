@@ -191,6 +191,7 @@ CATEG:	weapIncinerator			incinerator
 CATEG:	weapShotgun				shotgun
 
 //	Enemy-specific ammo categories
+CATEG:	ammoNapalmCanister		napalm_canister_10 napalm_canister_20
 CATEG:	arrowsDA				arrows_05 arrows_10 arrows_20
 CATEG:	boltsDA					bolts_05 bolts_10 bolts_20
 CATEG:	arrowsMD				arrows_MD_05 arrows_MD_10 arrows_MD_20
@@ -865,7 +866,7 @@ CITEM:	cashUK					90		cash2	0	-	0	-	0
 //			Soldier with Incinerator
 CLASS:	83
 CITEM:	weapIncinerator			10		-		0	-	0	-	0
-CITEM:	napalmTank				60		-		0	-	0	-	0
+CITEM:	ammoNapalmCanister		60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash3	0	-	0	-	0
 
 //			Soldier with Shotgun
