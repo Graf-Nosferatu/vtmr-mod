@@ -189,9 +189,13 @@ CATEG:	weapPistol				pistol
 CATEG:	weapTaser				taser
 CATEG:	weapIncinerator			incinerator
 CATEG:	weapShotgun				shotgun
+CATEG:	weapAssaultRifle		assaultRifle
+CATEG:	weapGrenadeLauncher		grenadeLauncher
+CATEG:	weapStakeGun			stakeGun
 
 //	Enemy-specific ammo categories
 CATEG:	ammoNapalmCanister		napalm_canister_10 napalm_canister_20
+CATEG:	ammoStakeGunPack		stakegun_pack_01 stakegun_pack_05 stakegun_pack_10 stakegun_pack_20
 CATEG:	arrowsDA				arrows_05 arrows_10 arrows_20
 CATEG:	boltsDA					bolts_05 bolts_10 bolts_20
 CATEG:	arrowsMD				arrows_MD_05 arrows_MD_10 arrows_MD_20
@@ -863,7 +867,7 @@ CITEM:	weapTaser				10		-		0	-	0	-	0
 CITEM:	powercel				60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//			Soldier with Incinerator
+//			Soldier with Incinerator, Setite with Incinerator
 CLASS:	83
 CITEM:	weapIncinerator			10		-		0	-	0	-	0
 CITEM:	ammoNapalmCanister		60		-		0	-	0	-	0
@@ -873,6 +877,26 @@ CITEM:	cashUK					90		cash3	0	-	0	-	0
 CLASS:	84
 CITEM:	weapShotgun				10		-		0	-	0	-	0
 CITEM:	shotgunshells			60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash2	0	-	0	-	0
+
+//		Setite Temple
+
+//			Setite with Assault Rifle
+CLASS:	85
+CITEM:	weapAssaultRifle		10		-		0	-	0	-	0
+CITEM:	assaultclip				60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash2	0	-	0	-	0
+
+//			Setite with Grenade Launcher
+CLASS:	86
+CITEM:	weapGrenadeLauncher		10		-		0	-	0	-	0
+CITEM:	launchGrenades			60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash3	0	-	0	-	0
+
+//			Setite with Stake Gun
+CLASS:	87
+CITEM:	weapStakeGun			10		-		0	-	0	-	0
+CITEM:	ammoStakeGunPack		60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
 //	Prague npcs
@@ -1250,7 +1274,6 @@ CITEM:	artillery				90		-		0	-	0	-	0
 CLASS:	237
 CITEM:	jewelryMD				10		cash2	0	-	0	-	0
 CITEM:	cashUK					30		cash1	0	-	0	-	0
-CITEM:	daggersMD				30		-		0	-	0	-	0
 CITEM:	lightAmmo				50		-		0	-	0	-	0
 CITEM:	lightFirearms			90		-		0	-	0	-	0
 
