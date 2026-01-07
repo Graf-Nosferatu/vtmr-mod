@@ -192,6 +192,7 @@ CATEG:	weapShotgun				shotgun
 CATEG:	weapAssaultRifle		assaultRifle
 CATEG:	weapGrenadeLauncher		grenadeLauncher
 CATEG:	weapStakeGun			stakeGun
+CATEG:	weapSubmachineGun		submachineGun
 
 //	Enemy-specific ammo categories
 CATEG:	ammoNapalmCanister		napalm_canister_10 napalm_canister_20
@@ -853,50 +854,53 @@ CITEM:	scrollsSense			100		-		0	-	0	-	0
 
 //	NPC DROPITEM CLASSES
 //	London
-//		The Society of Leopold
 
-//			Lab Worker with Pistol
+//		Lab Worker with Pistol
 CLASS:	81
 CITEM:	weapPistol				10		-		0	-	0	-	0
 CITEM:	pistolclip				60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//			Lab Worker with Taser
+//		Lab Worker with Taser
 CLASS:	82
 CITEM:	weapTaser				10		-		0	-	0	-	0
 CITEM:	powercel				60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//			Soldier with Incinerator, Setite with Incinerator
+//		Soldier with Incinerator, Setite with Incinerator
 CLASS:	83
 CITEM:	weapIncinerator			10		-		0	-	0	-	0
 CITEM:	ammoNapalmCanister		60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash3	0	-	0	-	0
 
-//			Soldier with Shotgun
+//		Soldier with Shotgun
 CLASS:	84
 CITEM:	weapShotgun				10		-		0	-	0	-	0
 CITEM:	shotgunshells			60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//		Setite Temple
-
-//			Setite with Assault Rifle
+//		Setite with Assault Rifle
 CLASS:	85
 CITEM:	weapAssaultRifle		10		-		0	-	0	-	0
 CITEM:	assaultclip				60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//			Setite with Grenade Launcher
+//		Setite with Grenade Launcher, Nosferatu with Grenade Launcher
 CLASS:	86
 CITEM:	weapGrenadeLauncher		10		-		0	-	0	-	0
 CITEM:	launchGrenades			60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash3	0	-	0	-	0
 
-//			Setite with Stake Gun
+//		Setite with Stake Gun
 CLASS:	87
 CITEM:	weapStakeGun			10		-		0	-	0	-	0
 CITEM:	ammoStakeGunPack		60		-		0	-	0	-	0
+CITEM:	cashUK					90		cash2	0	-	0	-	0
+
+//		Nosferatu with Submachinegun
+CLASS:	88
+CITEM:	weapSubmachineGun		10		-		0	-	0	-	0
+CITEM:	submachineclip			60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
 //	Prague npcs
