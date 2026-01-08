@@ -193,10 +193,14 @@ CATEG:	weapAssaultRifle		assaultRifle
 CATEG:	weapGrenadeLauncher		grenadeLauncher
 CATEG:	weapStakeGun			stakeGun
 CATEG:	weapSubmachineGun		submachineGun
+CATEG:	weapChaingun			chaingun
+CATEG:	weapRevolver			revolver
+CATEG:	weapRocketLauncher		rocketLauncher
 
 //	Enemy-specific ammo categories
 CATEG:	ammoNapalmCanister		napalm_canister_10 napalm_canister_20
 CATEG:	ammoStakeGunPack		stakegun_pack_01 stakegun_pack_05 stakegun_pack_10 stakegun_pack_20
+CATEG:	ammoChaingun			chaingun_rounds_50 chaingun_rounds_100
 CATEG:	arrowsDA				arrows_05 arrows_10 arrows_20
 CATEG:	boltsDA					bolts_05 bolts_10 bolts_20
 CATEG:	arrowsMD				arrows_MD_05 arrows_MD_10 arrows_MD_20
@@ -853,7 +857,6 @@ CITEM:	scrollsSense			100		-		0	-	0	-	0
 
 
 //	NPC DROPITEM CLASSES
-//	London
 
 //		Lab Worker with Pistol
 CLASS:	81
@@ -867,7 +870,7 @@ CITEM:	weapTaser				10		-		0	-	0	-	0
 CITEM:	powercel				60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//		Soldier with Incinerator, Setite with Incinerator
+//		Soldier, Setite with Incinerator
 CLASS:	83
 CITEM:	weapIncinerator			10		-		0	-	0	-	0
 CITEM:	ammoNapalmCanister		60		-		0	-	0	-	0
@@ -879,19 +882,19 @@ CITEM:	weapShotgun				10		-		0	-	0	-	0
 CITEM:	shotgunshells			60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//		Setite with Assault Rifle
+//		Setite, Giovanni with Assault Rifle
 CLASS:	85
 CITEM:	weapAssaultRifle		10		-		0	-	0	-	0
 CITEM:	assaultclip				60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
 
-//		Setite with Grenade Launcher, Nosferatu with Grenade Launcher
+//		Setite, Nosferatu with Grenade Launcher
 CLASS:	86
 CITEM:	weapGrenadeLauncher		10		-		0	-	0	-	0
 CITEM:	launchGrenades			60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash3	0	-	0	-	0
 
-//		Setite with Stake Gun
+//		Setite, Giovanni with Stake Gun
 CLASS:	87
 CITEM:	weapStakeGun			10		-		0	-	0	-	0
 CITEM:	ammoStakeGunPack		60		-		0	-	0	-	0
@@ -902,6 +905,24 @@ CLASS:	88
 CITEM:	weapSubmachineGun		10		-		0	-	0	-	0
 CITEM:	submachineclip			60		-		0	-	0	-	0
 CITEM:	cashUK					90		cash2	0	-	0	-	0
+
+//		Giovanni with Chaingun
+CLASS:	89
+CITEM:	weapChaingun			10		-		0	-	0	-	0
+CITEM:	ammoChaingun			60		-		0	-	0	-	0
+CITEM:	cashUS					90		cash3	0	-	0	-	0
+
+//		Giovanni with Revolver
+CLASS:	90
+CITEM:	weapRevolver			10		-		0	-	0	-	0
+CITEM:	revolverrounds			60		-		0	-	0	-	0
+CITEM:	cashUS					90		cash2	0	-	0	-	0
+
+//		Giovanni with Rocket Launcher
+CLASS:	91
+CITEM:	weapRocketLauncher		10		-		0	-	0	-	0
+CITEM:	rockets					60		-		0	-	0	-	0
+CITEM:	cashUS					90		cash3	0	-	0	-	0
 
 //	Prague npcs
 CLASS:	131
